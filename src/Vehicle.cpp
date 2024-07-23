@@ -24,13 +24,13 @@ using namespace std;
     }
 
     //getters
-    string Vehicle::getManufacturer(){
+    string Vehicle::getManufacturer()const{
         return manufacturer;
     }
-    int Vehicle::getYearBuilt(){
+    int Vehicle::getYearBuilt()const{
         return yearBuilt;
     }
         //display
-    void Vehicle::displayInfo(){
+    void Vehicle::displayInfo()const{
         printf("Manufacturer: %s \nYear: %s\n", manufacturer, yearBuilt);
     }

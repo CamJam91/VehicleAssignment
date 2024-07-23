@@ -22,10 +22,10 @@ class Vehicle{
     void setYearBuilt(int yearBuilt);
 
     //getters
-    string getManufacturer();
-    int getYearBuilt();
+    string getManufacturer()const;
+    int getYearBuilt()const;
         //display
-    void displayInfo();
+    virtual void displayInfo()const;
 };
 
 #endif
