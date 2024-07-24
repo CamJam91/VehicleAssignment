@@ -25,6 +25,6 @@ using namespace std;
 
     //display
     void Car::displayInfo() const{
-        displayInfo();
-        printf("doors: %s",doors);
+        Vehicle::displayInfo();
+        printf("doors: %d",doors);
     }; //redefined Vehicle Display

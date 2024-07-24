@@ -25,7 +25,7 @@ class Vehicle{
     string getManufacturer()const;
     int getYearBuilt()const;
         //display
-    virtual void displayInfo()const;
+    void displayInfo()const;
 };
 
 #endif

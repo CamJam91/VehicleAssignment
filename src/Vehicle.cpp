@@ -7,13 +7,13 @@ using namespace std;
         //default
     Vehicle::Vehicle(){
         manufacturer = "";
-        yearBuilt = 0;
-    }
+        yearBuilt = 1883;
+    };
         //args
     Vehicle::Vehicle(string manufacturer, int yearBuilt){
         this->manufacturer = manufacturer;
         this->yearBuilt = yearBuilt;
-    }
+    };
 
     //setters
     void Vehicle::setManufacturer(string manufacturer){
@@ -32,5 +32,5 @@ using namespace std;
     }
         //display
     void Vehicle::displayInfo()const{
-        printf("Manufacturer: %s \nYear: %s\n", manufacturer, yearBuilt);
+        printf("Manufacturer: %s \nYear: %d\n", manufacturer.c_str(), yearBuilt);
     }

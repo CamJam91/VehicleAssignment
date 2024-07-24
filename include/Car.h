@@ -14,9 +14,9 @@ class Car : public Vehicle{
     public:
     //constructors
         //default
-    Car() : Vehicle(){};
+    Car();
         //args
-    Car(string manufacturer, int yearBuilt, int doors) : Vehicle(manufacturer, yearBuilt){};
+    Car(string manufacturer, int yearBuilt, int doors);
 
     //setters
     void setDoors(int doors);

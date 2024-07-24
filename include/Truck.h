@@ -14,9 +14,9 @@ class Truck : public Vehicle{
     public:
     //constructors
         //default
-    Truck() : Vehicle(){};
+    Truck();
         //args
-    Truck(string manufacturer, int yearBuilt, int doors) : Vehicle(manufacturer, yearBuilt){};
+    Truck(string manufacturer, int yearBuilt, int doors);
 
     //setters
     void setCapacity(double capacity);

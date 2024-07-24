@@ -25,6 +25,6 @@ using namespace std;
 
     //display
     void Truck::displayInfo() const{
-        displayInfo();
-        printf("Towing Capacity: %s", towingCapacity);
+        Vehicle::displayInfo();
+        printf("Towing Capacity: %.2f", towingCapacity);
     }; //redefined Vehicle Display
